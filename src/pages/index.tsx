@@ -1,9 +1,5 @@
-import { Welcome } from "../components/Welcome";
+import { welcomeFuntctionTest } from "../components/Welcome";
 
 export default function Home() {
-  return (
-    <div>
-      <Welcome />
-    </div>
-  );
+  return <div>{welcomeFuntctionTest()}</div>;
 }

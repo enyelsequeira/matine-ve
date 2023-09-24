@@ -1,10 +1,10 @@
 import { Title, Text, Anchor } from "@mantine/core";
-import { title } from "./Welcome.css";
+import * as classes from "./Welcome.css";
 
-export function Welcome() {
+export function welcomeFuntctionTest() {
   return (
     <>
-      <Title className={title} ta="center" mt={100}>
+      <Title className={classes.title} ta="center" mt={100}>
         Welcome to{" "}
         <Text
           inherit
