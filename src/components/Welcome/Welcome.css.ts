@@ -1,12 +1,11 @@
 import { style } from "@vanilla-extract/css";
-import { rem } from "@mantine/core";
-import { vars } from "../../../theme";
+import { vars } from "../../../vars";
 
 export const title = style({
   color: vars.colors.black,
-  fontSize: rem(100),
+  fontSize: 100,
   fontWeight: 900,
-  letterSpacing: rem(-2),
+  letterSpacing: -2,
 
   selectors: {
     [vars.darkSelector]: {
@@ -16,7 +15,7 @@ export const title = style({
 
   "@media": {
     [vars.smallerThan("md")]: {
-      fontSize: rem(50),
+      fontSize: 50,
     },
   },
 });
